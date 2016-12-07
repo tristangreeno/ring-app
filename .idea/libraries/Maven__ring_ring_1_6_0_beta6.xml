@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: ring:ring:1.6.0-beta6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ring/ring/1.6.0-beta6/ring-1.6.0-beta6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ring/ring/1.6.0-beta6/ring-1.6.0-beta6-javadoc.jar!/" />
+    </JAVADOC>
+    <LIBRARY_FILE />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ring/ring/1.6.0-beta6/ring-1.6.0-beta6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

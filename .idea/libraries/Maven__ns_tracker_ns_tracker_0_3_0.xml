@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: ns-tracker:ns-tracker:0.3.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ns-tracker/ns-tracker/0.3.0/ns-tracker-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ns-tracker/ns-tracker/0.3.0/ns-tracker-0.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <LIBRARY_FILE />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ns-tracker/ns-tracker/0.3.0/ns-tracker-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

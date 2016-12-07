@@ -2,13 +2,19 @@
   (:require [ring.adapter.jetty :as jetty]
             [ring.util.http-response :as response]
             [ring.middleware.reload :refer [wrap-reload]]
-            [ring.middleware.format :refer [wrap-restful-format]]))
+            [ring.middleware.format :refer [wrap-restful-format]]
+            [compojure.core :as compojure]))
 
-(defn handler [request]
+(defn response-handler
+  "Generates a response."
+  [request]
   (response/ok
-    {:result (-> request
-                 :params
-                 :id)}))
+    (str "<html><body> your IP is: " (:remote-addr request) "</body></html>")))
+
+(compojure/defroutes handler
+                     (compojure/GET "/" request response-handler)
+                     (compojure/GET "/:id" [id] (str "<p>the id is: " id "</p>"))
+                     (compojure/POST "/json" [id] (response/ok {:result id})))
 
 (defn wrap-no-cache
   "A middleware handler that adds behavior to the existing handler."

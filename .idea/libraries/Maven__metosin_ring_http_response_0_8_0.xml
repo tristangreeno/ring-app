@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: metosin:ring-http-response:0.8.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/metosin/ring-http-response/0.8.0/ring-http-response-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/metosin/ring-http-response/0.8.0/ring-http-response-0.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <LIBRARY_FILE />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/metosin/ring-http-response/0.8.0/ring-http-response-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

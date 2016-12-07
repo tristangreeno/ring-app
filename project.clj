@@ -6,5 +6,6 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [ring "1.6.0-beta6"]
                  [metosin/ring-http-response "0.8.0"]
-                 [ring-middleware-format "0.7.0"]]
+                 [ring-middleware-format "0.7.0"]
+                 [compojure "1.6.0-beta2"]]
   :main ring-app.core)
